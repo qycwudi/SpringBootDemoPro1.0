@@ -1,0 +1,4 @@
+# 项目排除路径
+/entity_module/target/
+/environmentDemo/target/
+/util_module/target/

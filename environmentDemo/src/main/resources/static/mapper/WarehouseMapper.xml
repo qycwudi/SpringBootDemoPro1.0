@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qyc.mapper.WarehouseMapper">
+
+    <select id="selectAllMySql" resultType="com.entity.Warehouse">
+        select * from warehouse where wh_now_sum &lt; 10
+    </select>
+
+</mapper>

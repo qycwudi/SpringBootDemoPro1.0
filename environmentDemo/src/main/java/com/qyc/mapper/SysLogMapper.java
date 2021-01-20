@@ -1,0 +1,1 @@
+package com.qyc.mapper;import com.baomidou.mybatisplus.core.mapper.BaseMapper;import com.entity.SysLog;import org.apache.ibatis.annotations.Mapper;import org.mybatis.spring.annotation.MapperScan;@Mapperpublic interface SysLogMapper extends BaseMapper<SysLog> {}

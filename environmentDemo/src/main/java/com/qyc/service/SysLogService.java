@@ -1,0 +1,1 @@
+package com.qyc.service;import com.entity.SysLog;public interface SysLogService {    int insertLog(SysLog sysLog);}
