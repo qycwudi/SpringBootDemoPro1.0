@@ -9,7 +9,11 @@
         <module name="util_module" />
         <module name="environmentDemo" />
         <module name="entity_module" />
+        <module name="security5010" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="safety" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

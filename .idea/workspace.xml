@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73d251ef-86a7-402a-8df4-51a7dcfaa461" name="Default Changelist" comment="Default Changelist">
+    <list default="true" id="73d251ef-86a7-402a-8df4-51a7dcfaa461" name="Default Changelist" comment="修改aop">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environmentDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/environmentDemo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/EnvironmentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/EnvironmentDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/LogDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/aop/LogAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/aop/LogAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/LogDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/LogDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/controller/WarehouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/controller/WarehouseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/service/WarehouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/service/WarehouseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/service/impl/WarehouseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/service/impl/WarehouseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environmentDemo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/environmentDemo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/environmentDemo/src/main/resources/static/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/security5010/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,8 +71,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="ReactorSettings">
@@ -73,13 +80,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/environmentDemo/src/main/resources/static/mapper" />
-      <recent name="$PROJECT_DIR$/environmentDemo/src/main/java/com/qyc/cfg" />
-      <recent name="$PROJECT_DIR$/environmentDemo/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/environmentDemo/src/main/resources/static/mybatis" />
+      <recent name="$PROJECT_DIR$/security5010/src/main/resources" />
+      <recent name="$PROJECT_DIR$/security5010/src/main/java" />
+      <recent name="$PROJECT_DIR$/safety/src/main/resources" />
+      <recent name="$PROJECT_DIR$/safety/src/main/java/com/qyc" />
+      <recent name="$PROJECT_DIR$/environmentDemo/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/environmentDemo/src/main/resources" />
+      <recent name="$PROJECT_DIR$/environmentDemo/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.entity" />
+      <recent name="com.qyc" />
       <recent name="com.entity.autoCode" />
       <recent name="com.util.easyExcel.security" />
       <recent name="com.util.easyExcel" />
@@ -119,13 +132,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,8 +168,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainQx" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="security5010" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyc.MainQx" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MainQx" />
         <item itemvalue="Spring Boot.EnvironmentDemo" />
         <item itemvalue="JUnit.Test01.test01" />
         <item itemvalue="应用程序.AutoGeneratedCode" />
@@ -175,7 +204,17 @@
       <workItem from="1611049594053" duration="221000" />
       <workItem from="1611049834448" duration="13545000" />
       <workItem from="1611074756651" duration="306000" />
-      <workItem from="1611103614510" duration="20283000" />
+      <workItem from="1611103614510" duration="21825000" />
+      <workItem from="1611244306693" duration="1101000" />
+      <workItem from="1611285621111" duration="4974000" />
+      <workItem from="1611300882484" duration="2091000" />
+      <workItem from="1611315142279" duration="4560000" />
+      <workItem from="1611540513636" duration="13606000" />
+      <workItem from="1611572133278" duration="887000" />
+      <workItem from="1611573035243" duration="2325000" />
+      <workItem from="1611578350352" duration="444000" />
+      <workItem from="1611578800306" duration="3583000" />
+      <workItem from="1611589850964" duration="10744000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1611121145455</created>
@@ -191,14 +230,34 @@
       <option name="project" value="LOCAL" />
       <updated>1611121415127</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改aop">
+      <created>1611241671699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611241671699</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="修改aop" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改aop" />
   </component>
 </project>

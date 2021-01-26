@@ -1,0 +1,1 @@
+package com.qyc.beans;import lombok.Data;@Datapublic class UserVo {    private Long ID;    private String account;    private String password;    private String role;    private String imgUrl;}

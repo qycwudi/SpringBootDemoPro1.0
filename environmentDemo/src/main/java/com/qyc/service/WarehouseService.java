@@ -1,1 +1,1 @@
-package com.qyc.service;import com.entity.Warehouse;import java.util.List;public interface WarehouseService {    List<Warehouse> selectAllPlusSql();    List<Warehouse> selectAllMySql();}
+package com.qyc.service;import com.entity.Warehouse;import java.util.List;public interface WarehouseService {    List<Warehouse> selectAllPlusSql();    List<Warehouse> selectAllMySql();    Warehouse test01();}
